@@ -139,27 +139,27 @@
     padding-top: 10px;
 }
 
-.flowers-name {
-    display: flex;
-    padding: 60px 260px;
-    /* justify-content: space-evenly; */
-    justify-content: space-around;
-    text-decoration: underline;
-    font-size: 22px;
-    font-weight: 700;
+.flower-text {
     text-align: center;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 15px;
+
+
 }
 
 /* feature-two style section */
 .feature-two {
     display: flex;
-    border: 2px solid black;
+
     align-items: center;
-    margin: 100px 350px;
+    margin: 200px 350px 150px 350px;
     padding: 100px;
     justify-content: space-evenly;
     text-align: center;
-    border: none;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
@@ -171,6 +171,7 @@
     font-weight: 600;
     line-height: 35px;
     padding-top: 20px;
+
 }
 
 /* hot deal styles */
@@ -290,6 +291,51 @@
     padding: 2px 15px;
     border-radius: 8px;
 }
-.dbtn{
+
+.dealbtn {
     margin: 10px;
+}
+
+/* footer section styles */
+.footer {
+    height: 50vh;
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.flower-tag {
+    /* color: #E55473; */
+
+}
+
+.flower-shop-tag {
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+span {
+    color: #E55473;
+}
+
+.flower-shop-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px;
+
+}
+
+.copyright-tag {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
