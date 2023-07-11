@@ -252,6 +252,7 @@
     margin: 120px 200px;
     background-image: url('./Flower Asset/Rectangle\ 9.png');
     border: none;
+    margin: 100px auto;
 }
 
 .deal-Subscribe {
@@ -305,11 +306,6 @@
     display: flex;
     align-items: center;
     justify-content: center
-}
-
-.flower-tag {
-    /* color: #E55473; */
-
 }
 
 .flower-shop-tag {
