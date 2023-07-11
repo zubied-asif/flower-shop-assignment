@@ -31,7 +31,7 @@
 
 .header-btn {
     display: inline-flex;
-    padding: 20px 40px;
+    padding: 20px 50px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
@@ -142,5 +142,67 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-   
+}
+
+/* feature-two style section */
+.feature-two {
+    display: flex;
+
+    border: 2px solid black;
+    align-items: center;
+    margin: 100px 350px;
+    padding: 100px;
+    justify-content: space-evenly;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.simple-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+/* hot deal styles */
+.hot-deal {
+    display: flex;
+    height: 620px;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    justify-content: center;
+}
+
+.hot-text {
+    padding: 250px;
+}
+
+.hot-heading{
+    color: #272727;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.hot-peragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px;
+    text-align: center;
+
+}
+
+.btn{
+    margin: 5px 220px;
+}
+    
+.off{
+    color: #E55473;
+
 }
